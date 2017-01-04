@@ -1,0 +1,43 @@
+Is this course for you?
+
+* Java is used to program
+  - Mobile apps for Android and BlackBerry
+  - Web applications using servlets and JSP
+  - Micro devices including cell phone SIM cards
+  - Many other types of applications
+
+* Java is not
+  - JavaScript: Interpreted language used on web browser and other interpreted environment.
+                - Used for dynamic front web pages
+  - Used to build iOS(iPhone and iPad) apps - used language Objective-C and Swift
+  - Used to build Windows Phone apps - used language Visual Basic and C#
+  - The easiest language in the world - to master it need to know Object Oriented concept
+  - The most difficult language in the world - main virtue is consistency
+
+* Target Audience
+  - The course is designed for
+    - People who want to develop software with Java
+    - Those with a basic programming vocabulary
+
+* Can you answer these questions?
+  - What is a statement?
+    Ans: A Statement is a smallest standalone element of an programming
+    language that expresses some action to be carried out.
+    - It is an instruction written in a high-level language that commands the
+    computer to perform a specified action.
+
+  - What is a variable?
+    Ans: A variable is a storage location paired with an associated symbolic name
+    (an identifier),
+    - which contains some known or unknown quantity of information referred to as
+    a value.
+
+  - What is a function?
+    Ans: A function is a block of organized, reusable code that is used to perform
+    a single, related action.
+    - Function provide better modularity for your application and high degree of code
+    reusing.
+
+  - What is a condition?
+    Ans: A conditional statement or conditional expression is a set of rules performed
+    if a certain condition is met.
