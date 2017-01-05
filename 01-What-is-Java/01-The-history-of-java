@@ -1,0 +1,52 @@
+About Java:
+- Work on Java started in 1991
+- The  goal: a new portable language
+- Original name: Oak
+- Original tagline: Write Once, Run Everywhere
+
+            JDK 1.1          J2SE 1.3           J2SE 5.0 (1.5)
+            Innner classes   HotSpot JVM        Generics, Metadata
+            JavaBeans        JNDI Interface     Enumerations
+  First     JDBC, RMI        Java Sound API     Variable arguments
+  Release   Reflection   Debugging Architecture For-each enhancement
+  1995      1997             2000                 2004
+  +          +               +                    +
+  |          |               |                    |
++-+----+-----+------+--------+--------+-----------+---------->
+|            |               |
++            +               +
+1996          1998           2002
+JDK 1.0     J2SE 1.2         J2SE 1.4
+         Swing graphical API Regular expression
+         JIT compiler        IPv6 network communications
+         Java Plug-in        Logging API
+         Collection network  XML and XSLT
+                             Security and cryptogrphy
+                             Java Web Start
+
+- The current version of Java is J2SE 8 but internally it is J2SE 1.8.
+- Java 5 was the major change for the language in terms of core language syntax, a
+  new feature called "Generics" was implemented, that allow to strongly data type
+  elements that belonging to collection.
+
+                                              Lambda expressions
+                                             and method references
+                                            Collections with streams
+                                               New date/time API
+                  Oracle buys Sun             Nashorn JavaScript engine
+                        2010                        2014
+                         +                           +
+                         |                           |
+              +--+-------+---------------+-----------+--------+-------->
+                 |                       |                    |
+                 +                       +                    +
+               2006                    2011                 2016
+             Java SE 6                Java SE 7            Java SE 9
+       Performance JDBC 4.0        String in switch      Runtime library modularization
+         GUI improvements       Try-catch improvements   Process API updates
+    Simplified variable args   Lightweight JSON API      Money and Currency API
+      Underscores in numberic    Money and Currency API
+            literals
+- At the time of learning Java, Java SE 8 is the latest version of Java for everything
+  except "Android Development".
+- For Android Developer look for feature of Java SE 6 and Java SE 7.
