@@ -1,0 +1,62 @@
+Memory Management and Garbage Collection:
+----------------------------------------
+* Memory for objects is allocated automatically.
+* Objects are created in heap memory.
+  - When we create a variable, it stored in fastest available memory
+  - But the object reference is stored in heap memory
+  - There are two memory
+  +-----------+
+  |  heap     |(Little slower, more dynamic)
+  +-----------+
+  |           |
+  |  stack    |(faster memory)
+  |           |
+  +-----------+
+  - When we create variable they might be stored in stack or heap
+  - But complex object are stored always in heap
+* As long as any variable references an object, that variable is retained.
+* When all references expire, the object is eligible for garbage collection.
+  - And it is all responsible of garbage collector object when to do that.
+------------------
+When do references expire?
+1. Variables local to methods or code blocks expire with scope.
+void changeString(){
+  String localVar = "Won't be around for long!";
+  System.out.println("In function: "+ localVar);
+}
+  - As soon as the method is finished executing, that variable is dereferenced.
+  - That value, the object is referenced, might stay in memory for little while
+    but can't be addressed anymore.
+  - So it's eligible for garbage collection
+  - The next time the Garbage Collector looks for variables, it can remove it
+    reclaim that memory for future use.
+
+2. Explicitly dereference variables with null keyword
+  String tempVar = "Won't be around for long!";
+  tempVar = null;
+----------------
+Java Garbage Collector:
+* The Garbage Collector object runs in its own thread.
+  - Depending on the kind of application you're running
+  - Depending on the hardware,
+  - The amount of memory and other resources it has.
+* Can destroy dereferenced objects, but not required
+* Cannot force garbage collection
+----------------
+System Methods:
+* Methods system.gc() and Rutime.gc() can request garbage collectin, but there
+  is no gurarantee it will happen or not.
+* If no memory is available for a newly requested object, system throws OutOfMemoryError.
+  - And it halt the Virtual Machine to a halt state.
+----------------
+Tips for Managing Memory
+* Minimize the number of object you create (try to recycle existing object)
+* If concerned, use these methods to find out how much memory is available:
+  Runtime.maxMemory() - how much memory has been allocated to the virtual machine
+  Runtime.totalMemory() - how much is currently in use
+--------------
+Setting Available Memory:
+* Use command-line options to manage amount of available heap memory
+  java -Xms256s HelloWorld  - Initial heap size
+  java -Xmx256m HelloWorld  - Maximum heap size
+  java -Xmn256n HelloWorld  - Heap size for young generation objects
