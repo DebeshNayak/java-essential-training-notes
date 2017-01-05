@@ -1,0 +1,113 @@
+Java Principles and Components:
+-------------------------------
+* Simple, object-oriented, and familiar
+  - Once understand the principle of encapsulation, inheritance, and polymorphism in
+    java, then we have a better sense to architect a application.
+  - The Java syntax is familiar to C and C++
+* Robust and secure
+  - Robustness lies in OO characteristics
+  - OO help to write the code in small chunks and easy to write and debug app over time.
+* Architecture-neutral and portable
+  - Compile once and run the app in multiple OS and processors
+* High-performance
+  - Now a days Java App runs faster then app developed in C++
+* Interpreted, threaded, and dynamic
+  - Application is compiled to a format that's interpreted at runtime, rather
+    than run directly as machine code, and this makes the app portable
+  - It is multi-threaded which help app to do multiple things at a time.
+  - It change data type at runtime as long as the data type are compatible with each other.
+------------------------
+Runtime Architecture:
+* Java is an interpreted language.
+* It compiles to bytecode instead of machine language.
+* The compiled application is portable between platforms without recompiling.
+  - We can Java App on Windows, Mac, Linux, Solaris for which there is a Java
+    virtual machine.
++-------------------------------+
+|    Custom-compiled bytecode   |
++-------------------------------+
++-------------------------------+
+|Core runtime and additional Lib|
++-------------------------------+
+    +---------------------+
+    | Java Virtual Machine|
+    +---------------------+
+    +---------------------+
+    | Operating System    |
+    +---------------------+
+
+  - The Java Virtual Machine or JVM provided by Oracle and originally created by
+    Sun Microsystem
+    - But there are other JVM, one provided by IBM, other one provided by Google
+      for Android and there are other JVM.
+  - "Core runtime and additional libraries", The core library is sometime called
+    Java Class library, and it included both with JDK and JRE.
+  - And finally, app is compiled into bytecode and that bytecode runs on top of all
+    other layers.
+------------------------------
++-------------------------------------+-----------------------------------------+
+|            C++                      |           Java                          |
++-------------------------------------------------------------------------------+
+| Compatible with C                   | Not compatible with previous languages  |
+|                                     |                                         |
+| Compiled to native machine language | Compiled to bytecode                    |
+|                                     |                                         |
+| Allows direct calls to native system| Calls to native functions go through JNI|
+| libraries                           |                                         |
+|                                     |                                         |
+| Write once, compile anywhere        | Write once, run anywhere                |
+|                                     |                                         |
+| Exposes low-level system functions  | Runs ina protected virtual machine (JVM)|
+|                                     |                                         |
+| Explicit memory management and      | Managed memory access                   |
+| pointers                            |                                         |
+|                                     |                                         |
+| Multiple inheritance                | Limited to single inheritance           |
+|                                     |                                         |
++-------------------------------------+-----------------------------------------+
+-------------------
++-------------------------------------+-----------------------------------------+
+|            Java                     |            JavaScript                   |
++-------------------------------------------------------------------------------+
+| Not compatible with previous langua | Based on ECMAScript standard            |
+|                                     |                                         |
+| Comiled to bytecode                 | Not compiled - interpreted at runtime   |
+|                                     |                                         |
+| Call to native function go through  | No native function calls in broswer     |
+| JNI                                 | sandbox                                 |
+|                                     |                                         |
+| Write once, run anywhere            | Broad compatiblility: browsers and other|
+|                                     | runtime                                 |
+|                                     |                                         |
+| Runs in a protected virtual machine | Restricted to browser sandbox           |
+| (JVM)                               |                                         |
+|                                     |                                         |
+| Managed memory access               | Managed memory access                   |
+|                                     |                                         |
+| Class-based inheritance             | Prototype-based inheritance             |
++-------------------------------------+-----------------------------------------+
+-------------
+Java Editions:
+* Java Platform, Standard Edition (SE)
+  - Standard for core language and runtime environment (JRE)
+* Java Platform, Enterprise Edition (EE)
+  - Standard for building industrial-strength web applications
+  - Some server are free and some are paid
+* Java Platform, Micro Edition (ME)
+  - Micro-controllers, sensors, and mobile devices
+  Ex: SIM card are programmed on Java
+----------------
+Java runtime Environment:
+* Java SE Runtime Environment (JRE) includes JVM
+* Supported on Windows, Linux, OS X, and Solaris
+* Runs all Java applications: desktop, browser, and server
+* Must be updated regularly to keep up with security issues
+* Mobile operating systems have their own runtimes.
+-----------------
+Java SE Development KIT (JDK)
+* Available at no cost from Oracle
+* Includes tools for compilation and packaging
+  java: runtime
+  javac: compiler
+  javadoc: docs builder
+  jar: archive builder
