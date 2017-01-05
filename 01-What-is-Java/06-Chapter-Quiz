@@ -8,3 +8,7 @@ Ans:
 * Whitespace doesn't affect interpretation of code
 
 3. Which of the following is true about Java?
+Ans:
+* Java compiled application is portable between platforms without recompiling
+* Java is an interpreted language
+* Java is an object-oriented language
