@@ -1,0 +1,18 @@
+Installing IntelliJ IDEA on Windows:
+- Download the IntelliJ IDEA Community edition.
+- And install it.
+-------------
+Before creating new project need to configure JDK as SDK:
+- In the "Welcome to IntelliJ IDEA" screen
+- Click on "Configure" -> "Project Defaults" -> "Project Structure
+- Go to "Platforms Settings" -> Select "SDKs"
+- Click '+' -> click JDK
+- Browse to JDK folder (not the JRE folder)
+- Now select the left side "Project" option
+- Select the "Project SDK" to 1.8
+- And "Project Language" level to "8 - Lambdas, type annotations etc."
+- Click OK
+- Now check the "Name" field to be set to the version of java number
+- Then we can see the listing of the JAR files which are the part of the Java runtime
+- And IntelliJ IDEA is ready to create its first project
+----------------

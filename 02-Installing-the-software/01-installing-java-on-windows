@@ -1,0 +1,15 @@
+Installing java on Windows:
+- We need to install Java Development Kit from oracle
+http://www.oracle.com/technetwork/java/index.html
+- Click on JDK and select the appropriate download
+- And install it.
+- After installing we need to tell the system where it can find java and java compiler
+- So we need to create new environment variable.
+  - Go to System Properties
+  - Then Environment Variable
+  - Create a new environment variable called "JAVA_HOME"
+  - And add the "JDK folder" path, not the "JDK/bin" folder path
+  - And add the "JDK/bin" path to the "Path" variable
+- In command prompt:
+java -version
+javac -version

@@ -1,0 +1,14 @@
+Installing Java on OS X
+- In terminal
+java -version
+- If java  is present we can update it to the latest version
+- Go to the following link
+http://www.oracle.com/technetwork/java/index.html
+- Click on JDK and select the appropriate download
+- And install it.
+
+* Where Java is installed:
+- Go to finder window
+- Go to /Library/java
+- Go to JavaVirtualMachines -> Contents -> Home folder
+- The bin folder contains all the command line tools
