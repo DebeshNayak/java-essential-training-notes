@@ -28,7 +28,7 @@ void changeString(){
   - That value, the object is referenced, might stay in memory for little while
     but can't be addressed anymore.
   - So it's eligible for garbage collection
-  - The next time the Garbage Collector looks for variables, it can remove it
+  - The next time the Garbage Collector looks for variables, it can remove it and
     reclaim that memory for future use.
 
 2. Explicitly dereference variables with null keyword
@@ -44,8 +44,8 @@ Java Garbage Collector:
 * Cannot force garbage collection
 ----------------
 System Methods:
-* Methods system.gc() and Rutime.gc() can request garbage collectin, but there
-  is no gurarantee it will happen or not.
+* Methods system.gc() and Rutime.gc() can request garbage collection, but there
+  is no guarantee it will happen or not.
 * If no memory is available for a newly requested object, system throws OutOfMemoryError.
   - And it halt the Virtual Machine to a halt state.
 ----------------

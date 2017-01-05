@@ -1,2 +1,34 @@
 Integrated Development Environments (IDEs):
 ------------------------------------------
+Development Environment:
+* Any text editor will do!
+* Many Java IDEs are available.
+* Most work on all major operating systems.
+----------------
+Editors and IDEs for OS X
+* BBEdit and TExtWrangler
+  - Syntax coloring and function scanning
+  - Not a Java "specialist" IDE
+----------------
+Editors and IDEs for Windows:
+* TextPad
+  Shareware
+  General purpose editor, with support for external tools
+* JCreator
+  Free "LE" edition, paid "Pro" edition
+---------------
+Top Cross-Platform IDEs:
+1. NetBeans
+  - Managed by Oracle
+  - Excellent support for JEE development
+  - Also supports C, C++, and PHP
+  - Some distros include bundled JEE server
+2. Eclipse with Java Developer Tools
+  - Free and open source
+  - Distro for many languages and platforms
+3. IntelliJ IDEA
+  - Free "community" edition, paid "pro" edition
+  - Distros for many languages and platforms
+  - Foundation of Google's Android Studio
+-------------
+Other IDEs: BlueJ, Student IDE, JBuilder
