@@ -1,0 +1,54 @@
+Java Syntax and Compilation:
+----------------------------
+* All code is defined in classes.
+* Classes are defined in source code files with .java extension.
+* The javac command compiles Java code into bytecode.
+* The java command runs compiled bytecode files.
+------------
+A Simple Java Class:
+* Defined in Main.java:
+
+package declaration ------> package com.example;
+
+Class declaration --------> public class Main {
+
+Main method -------------->   public static void main(String[] args){
+Executable code----------->     System.out.println("Hello World");
+                              }
+                            }
+-----------
+Case sensitivity:
+* Java is case sensitive.
+  - All identifiers must be unique within their scopes.
+  Ex:
+  These are different identifiers due to case.
+    fristname
+    firstName
+    FIRSTNAME
+------------
+White Space
+* White space doesn't affect interpretation of code.
+* Spaces, tabs, and line feeds are "collapsed" by compiler.
+* All statements must end with a semicolon (;).
+  System.out.println("hello world")[;] ------> Required
+-------------
+Identifiers and Keywords
+* Keywords can't be used as class or other identifiers:
+  https://cods.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+* Class, method, field, and other names are identifiers.
+* Identifiers must start with alpha character or underscore.
+  (Can't used numbers and special characters)
+-------------
+Identifier Conventions:
+* Classes start with uppercase character.
+  class MyClass
+* Methods and variables start with lowercase character
+  Ex:
+  void doSomething(String withThis) { }
+* Constant are all uppercase.
+  public static final String FIRSTNAME="Debesh";
+  Note:
+    - There is no constant keyword in java
+    - They are declared by "static final" keyword
+    - Static means it is a member of the class
+    - Final means it can't be changed.
