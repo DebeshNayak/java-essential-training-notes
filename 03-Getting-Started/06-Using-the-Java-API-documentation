@@ -1,0 +1,15 @@
+Using the Java API documentation:
+- On IntelliJ IDEA put the mouse crusor on a keyword and press "ctrl + q"
+- Documentation is available on the web or can be downloaded locally.
+  - Web - http://docs.oracle.com/javase/8/docs/
+  - Download - http://www.oracle.com/technetwork/java/javase/download/index.html
+- To integrate the Java API documentation into the IntelliJ IDEA:
+  - Go to IntelliJ Welcome Screen
+  - Select Configure -> Project Defaults -> Project Structures
+  - On the left side under "Platform Settings" select "SDKs"
+  - Select "Documentation Paths" tab
+  - Click on the '+' icon to specify the URL
+  - Enter the documentation URL
+  - Click "Ok"
+- Now in the IntelliJ IDEA select a keyword and press "Shift + F1" to open the
+  Java Documentation.

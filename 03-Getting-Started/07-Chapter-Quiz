@@ -1,0 +1,12 @@
+1. Which of the following keyword means that a member of a class
+can be called from the class itself as opposed to an instance of the class?
+Ans: static
+
+2. Value passed to a main method are called:
+Ans: arguments
+
+3. What does the Structure window in IntelliJ IDEA show?
+Ans: it shows the content of the current class
+
+4. YOu can integrate the Java API documentation from Oracle site into IntelliJ IDEA.
+Ans: true

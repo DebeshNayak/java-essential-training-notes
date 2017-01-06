@@ -1,0 +1,22 @@
+- Java developers typically organize their classes in packages.
+- A package is a unique identifier that goes at the top of the class declaration.
+- But it actually matches a folder hierarchy.
+- You can create your Java classes in a project root folder, also known as the base package,
+  but to keep your classes well organized, you should start with packages from the very beginning.
+-----------------
+package com.example.java;
+
+public class Main {
+
+	public static void main(String[] args){
+		System.out.println("Hello World from Java");
+		System.out.println(args[0]);
+	}
+
+}
+--------------
+- save it inside com/example/java/ folder
+- compile it from root folder by
+  javac com/example/java/Main.java
+- run it by
+  java com.example.java.Main "My App"
