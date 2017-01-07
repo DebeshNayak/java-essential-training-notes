@@ -1,0 +1,5 @@
+Representing currency value with BigDecimal:
+* java.lang package are implicitly imported to code.
+* We can't use double for currency calculation because it result in incorrect
+  calculation.
+* So we have to use java.math.BigDecimal to get precise currency value.

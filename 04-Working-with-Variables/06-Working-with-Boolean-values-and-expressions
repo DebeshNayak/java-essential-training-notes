@@ -1,0 +1,8 @@
+Working with Boolean values and expressions:
+- If we declared a boolean variable and not assign it any value, by default
+  it declared it to false.
+- We can take a boolean value and reverse it value using ! (exclamation mark) - negetion operator
+- we can create boolean value from expression by comparing values to each other.
+- We can take a string "true" or "false" and parse it as a boolean using
+  parseBoolean() of Boolean class.
+- Boolean class take more memory in compare to it's primitive data type.

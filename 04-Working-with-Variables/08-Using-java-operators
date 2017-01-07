@@ -1,0 +1,92 @@
+Operators:
+General Rules of Operators:
+* Types of operators:
+  - Equality
+  - Assignment
+  - Mathematical
+  - Logical
+-------------
+Assignment and Math Operators:
+int intValue;
+int intValue = 10;
+                |
+        Simple assignment
+
+Assignment and simple math
+int newValue = intValue + 5;
+int newValue = intValue - 5;
+int newValue = intValue * 5;
+int newValue = intValue / 5;
+int newValue = intValue % 5;
+-------------------
+int intValue = 10;
+                |
+            Initial value
+Incrementing and decrementing
+intValue ++;
+intValue --;
+
+Other assignments:
+intValue += 5;
+intValue -= 5;
+intValue *= 5;
+intValue /= 5;
+--------------------
+Postfix vs. Prefix Incrementing:
+int intValue = 10;
+                |
+            Initial value
+Postfix:
+System.out.println(intValue ++); output: 10, new value: 11
+System.out.println(++ intValue); output: 11, new value: 11
+-----------------
+Equality Operators:
+Equality
+if(this == that){
+  System.out.println("They match!");
+}
+
+Inequality
+if (this != that){// bang operator
+  System.out.println("No match!");
+}
+-------------------------
+Comparing Values:
+Operator      Purpose
+--------      --------
+>             Greater than
+<             Less than
+>=            Greater than or equal
+<=            Less than or equal
+instanceof    Class membership
+
+Example:
+String s = "Hello";
+if (s instanceof java.lang.String){
+  System.out.println("s is a String");
+}
+------------
+Comparing Strings
+- Strings can't be compare using equality operator
+String s1 = "Hello";
+String s2 = "Hello";
+if(s1.equals(s2)){
+  System.out.println("They match!");
+}
+else {
+  System.out.println("No match!");
+}
+Output: They match!
+---------------
+Logical Operators:
+Operator    Purpose
+--------    -------
+&&          And
+||          Or
+?:          Ternary (short-hand for if-then)
+
+Example:
+String s = condition ? trueValue : falseValue;
+--------------
+There are other operators called bit wise operators.
+For more details check Java Documentation.

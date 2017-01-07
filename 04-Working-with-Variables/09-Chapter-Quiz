@@ -1,0 +1,27 @@
+1. Which of the following is true about primitive data types in Java.
+Ans:
+- primitive data types are stored in faster available memory.
+- numbers, characters and booleans are primitive data types
+-  primitive data type names area all lowercase.
+
+2. If you have the variable 'f' declared in your code as follows:
+  float f = 1f, what will be the output of the following code?
+  System.out.println("Float: " + f);
+Ans: Float: 1.0
+
+3. Which of the following is true about BigDecimal class?
+Ans:
+- It is a member of the package Java.Math
+- It is a method called add
+- an object of this class can be instanitated using the following
+  code:
+  BigDecimal bigdec = new BigDecmial(strValue);
+
+4. You need to create an instance of the Math class every time you need to use its methods.
+Ans: False
+
+5. Which of the following is a type of operator in Java.
+Ans:
+Mathematical operators
+Equality operators
+Assignment operators

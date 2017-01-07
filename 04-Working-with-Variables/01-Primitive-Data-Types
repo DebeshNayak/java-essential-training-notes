@@ -1,0 +1,63 @@
+What is a primitive data type?
+- Numbers, characters, and booleans
+- Stored in fastest available memory (so that we can get the data as fast as possible)
+- Primitive data type names are lowercase
+- Not a primitive: Strings
+-------------
+Declaring Primitive Variables:
+* Java is a statically typed language.
+* All variables must have their types declared.
+      Identifier
+        |
+  int myVar = 5;
+   |          |
+Data type   Value
+-----------------
+Numeric Primitive Data Types:
++----------------+---------------+--------------+
+|Data Type |Bits |  Minimum      |  Maximum     |
++-----------------------------------------------+
+|  byte    |  8  |    |128       |    127       |
++-----------------------------------------------+
+| short    | 16  |  -32,768      |  32,767      |
++-----------------------------------------------+
+|   int    | 32  |-2,147,483,648 | 2,147,483,647|
++-----------------------------------------------+
+|  long    | 64  |-9.22337E|18   | 9.22337E+18  |
++----------+---------------------+--------------+
+| float    | 32  |        See the docs          |
++----------+---------------------+--------------+
+|  long    | 64  |        See the docs          |
++----------+---------------------+--------------+
+
+* int and dobule used very commonly
+--------------
+Equivalent Helper Classes:
+* Java class library includes helper classes for each primitive.
+* Helper classes support conversion and formatting tools.
+  Data Types          Helper Class
+    byte                Byte
+   short               Short
+    int                Integer
+   long                 Long
+  float                Float
+
+- The first letter of the Helper class are upper case of the primitive data type.
+---------------
+Helper Class Example:
+* java.lang.Double supports double values.
+
+double doubleValue = 156.5d;
+Double doubleObj = new Double(doubleValue);
+byte byteValue = doubleObj.byteValue();
+int intValue = doubleObj.intValue();
+float floatValue = doubleObj.floatValue();
+String stringValue = doubleObj.toString();
+----------------
+Primitive Numeric Defaults:
+* Primitive numeric variables default to 0.
+
+int myInt;
+System.out.println("The value of myInt is " + myInt);
+
+Output: The value of myInt is 0

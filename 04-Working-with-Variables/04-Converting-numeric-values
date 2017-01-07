@@ -1,0 +1,5 @@
+Converting numeric values:
+- We can convert number to different types.
+- When we convert the value from small to large data type, we don't need any special syntax
+- But when we convert from large to small we have to use some special syntax.
+- When narrowing down from larger to small data type we need to use explicit casting syntax.

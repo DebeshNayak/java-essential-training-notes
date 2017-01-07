@@ -1,0 +1,6 @@
+Working with character values:
+-----------------------------
+- Char is a primitive data type. Consist of single character.
+- String is a complex data type and comprise of many characters.
+- Character literals are always wrapped in single quote.
+- String literals are wrapped in double quotes.
