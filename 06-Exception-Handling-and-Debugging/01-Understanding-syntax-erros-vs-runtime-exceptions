@@ -1,0 +1,5 @@
+Understanding syntax errors vs. runtime exceptions:
+- Dealing with bugs are part of all software development.
+* For syntax error in IntelliJ IDEA
+  - Open the "Problems" view
+  - Then press F2 key to jump to the particular statement

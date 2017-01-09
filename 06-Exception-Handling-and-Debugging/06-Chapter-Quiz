@@ -1,0 +1,10 @@
+1. Syntax errors are code errors that you must deal with before you can compile and run your application.
+  Run time errors are exceptions that occur while the application is running and will stop your application.
+Ans: True
+
+2. If your code is successful, you'll execute all the code in the try block and then jump past the catch block.
+  But if you run into one of the particular exceptions, you code path diverts to the catch block and you'll execute that code instead.
+  Ans: True
+
+3. In Java, you can have only one catch block in a try catch block that handles errors in your code.
+Ans: False

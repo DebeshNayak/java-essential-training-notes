@@ -1,0 +1,4 @@
+Debugging with IntelliJ IDEA:
+
+- The ability to add breakpoints and watch the value of different variables
+  so that we can find out where error are occurring in the code.

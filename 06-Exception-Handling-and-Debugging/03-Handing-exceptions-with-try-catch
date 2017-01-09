@@ -1,0 +1,22 @@
+Handling exceptions with try/catch:
+- Whenever you write code that could potentially throw an exception at runtime,
+  you can wrap that code or surround it in a try catch block.
+--------------------
+package com.example.java;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        String welcome = "Welcome!";
+        char[] chars = welcome.toCharArray();
+
+        try {
+            char lastChar = chars[chars.length];
+            System.out.println(lastChar);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
+        }
+
+    }
+}

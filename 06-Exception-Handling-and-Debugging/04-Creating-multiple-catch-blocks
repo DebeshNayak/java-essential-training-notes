@@ -1,0 +1,28 @@
+Creating multiple catch block:
+------------------------------
+- When you wrap a bit of code in a try block, you can actually have more than one catch section.
+- Each catch block should look for a specific exception, and then your code path will
+  change depending on which exception is generated.
+-----------
+package com.example.java;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String welcome = "Welcome!";
+        char[] chars = welcome.toCharArray();
+
+        try {
+            char lastChar = chars[chars.length - 1];
+            System.out.println(lastChar);
+
+            String sub = welcome.substring(10);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            // e.printStackTrace();
+            System.out.println("Array index problem!");
+        } catch (StringIndexOutOfBoundsException e){
+            System.out.println("String index problem!");
+        }
+
+    }
+}
