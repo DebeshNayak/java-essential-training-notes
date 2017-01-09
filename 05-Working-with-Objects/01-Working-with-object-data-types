@@ -1,0 +1,64 @@
+Objects and Reference Variables:
+---------------------------------
+Java Classes Define Objects:
+* An object is an instance of a class.
+* Non-primitive variables are references to object.
+* Objects can have multiple references.
+          /- var 1
+anObject  - var 2
+          \- var 3
+
+- If something changes about that object in memory,
+  all three of those variables would update.
+-------------
+A Class Instantiating Itself:
+
+public class ClotingItem {
+  public String type; // Instance variable
+
+  public static void main (String[] args){
+    ClothingItme item = new ClothingItem(); // Instantiation
+    item.type = "Hat";
+    item.displayItem();
+  }
+
+  private void displayItem(){ // Instance method
+    System.out.println("This is a " + this.type);
+  }
+}
+-------------
+A String Is an Object:
+* String values are instances of java.lang.String.
+  String string1 = new String("Hello!");
+  String string2 = "Hello!"; // Java compiler understand the same thing as above.
+------------
+Other Characteristics of Strings:
+* A string is an array of characters.
+  A string object
+  "Hello!"
+
+  An array of Char values
+  H e l l o !
+* Sting object are immutable.
+* Resetting the value of a String creates a new object.
+  - That means that once you instantiate and assign their values, you can't really change them.
+  - Now, the Java compiler will make it look like you can change them.
+    For example, if I start with a variable named StringOne, and I assign it a value
+    of "Hello!",
+  - Then on the very next line I say StringOne = "Hello, world!", it looks like I'm changing the object.
+  - But in fact, in the background, I'm de-referencing the original object.
+  - That object can now be cleared from memory in a process known as garbage collection,
+    and creating a brand new object with the new value.
+  - So in Java, if we assign new string value to a string variable,
+    results in creating a lot of objects, which will create
+    memory management problems in the background
+-----------------
+Char Array to a String:
+Ex:
+public class Main {
+  public static void main(String[] args){
+    char[] chars = {'H', 'e', 'l', 'l', 'o', '!'};
+    String s = new String(chars);
+    System.out.prinln(s);
+  }
+}

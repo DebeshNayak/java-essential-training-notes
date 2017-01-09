@@ -1,0 +1,9 @@
+1. That takes user inputs
+2. Translate strings to numerical values
+3. Execute a mathematical operation
+4. And return the result to the console
+Ex:
+Enter a numeric value: 18
+Enter a numeric value: 16.6
+The answer is 31.5
+--------------------------------

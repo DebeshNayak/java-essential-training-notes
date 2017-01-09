@@ -1,0 +1,23 @@
+1. Which of the following statements are true?
+Ans:
+- Non-primitive variables are references to objects
+- An object is an instance of a class
+- String object are immutable
+- Object can have multiple references
+
+2. Which of the following is true about StringBuilder class?
+Ans:
+- It has an append method
+- It is a member of the Java.lang package
+- It is used to put strings together at runtime, while minimizing the number
+  of objects you're creating in memory
+
+3. Which of the following is a method of the Java String class?
+Ans:
+- substring()
+- length()
+- indexOf()
+
+4. The following code is a correct way of creating an instance of the Date class:
+  Date d = new Date();
+Ans: True
