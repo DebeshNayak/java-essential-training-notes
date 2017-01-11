@@ -1,0 +1,51 @@
+Managing resizable arrays with ArrayList:
+http://goo.gl/D9k5Tv
+- The Java collections framework is a set of interfaces and classes that make it
+  easy to manage data in your applications.
+- You can manage either ordered or unordered data and you can use one of four categories
+  of classes.
+- Each of these categories is represented by an interface.
+  Named:
+  - set,
+  - list,
+  - dequeue and
+  - map.
+- Most commonly used classes from this framework are ArrayList, and HashMap.
+- These are both implementations of two interfaces.
+  - ArrayList implements lists, and HashMap implements map
+-----------
+- What item the list can contain can be represented by using "generic" notation.
+- The generic notation is called "diamond operator" (<>)
+- ArrayList contain ordered collection of data. We can call it resizable array.
+-------------
+package com.example.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+
+        list.add("Madhapradesh");
+        list.add("Maharastra");
+        list.add("West Bangle");
+
+        System.out.println(list);
+        list.add("Goa");
+        System.out.println(list);
+
+        // remove from list based on its index position
+        list.remove(0);
+        System.out.println(list);
+
+        // access single item from the list
+        // ListArray has 0 based indexing
+        String state = list.get(1);
+        System.out.println("The second state is " + state);
+
+        int pos = list.indexOf("Goa");
+        System.out.println("Goa is at position " + pos);
+    }
+}
