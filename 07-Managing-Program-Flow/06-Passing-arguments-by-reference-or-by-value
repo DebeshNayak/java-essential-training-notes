@@ -1,0 +1,83 @@
+Passing Arguments by Copy or by Reference:
+- One of the questions you have to answer when you learn a new programming language
+  is whether arguments passed into a method are being passed by copy, or by reference.
+-----------
+* Passing to a method by copy
+  The method receives a copy of the variable.
+* Passing to a method by reference
+  The method receives a reference to the original object.
+* In Java, variables are always passed by copy!!!
+-------------------------
+Scenario - 1: Passing Primitive Values
+
+void incrementValue(int inMethod){
+  inMethod ++;
+  System.out.println("In method: " + inMethod);
+}
+
+int original = 10;
+System.out.println("Original before: " + original);
+incrementValue(original);
+System.out.println("Original after: " + original);
+
+Output:
+Original before: 10
+In method: 11
+Original after: 10
+
+Note: the original value didn't change!
+------------------
+Scenario - 2: Primitive Wrapped in Objects
+
+void incrementValue(int[] inMehtod){
+  inMethod[0] ++;
+  System.out.println("In method: " + inMethod[0]);
+}
+
+int[] original = {10, 20, 30};
+System.out.println("Original before: " + original[0]);
+incrementValue(original);
+System.out.println("Original after: " + original[0]);
+
+Output:
+Original before: 10
+In method: 11
+Original after: 11
+
+Note: The original value did change!
+----------------
+Scenario - 3: Object Variables Are References
+* A reference variable points to a location in memory.
+* When a variable is passed to a function, a new reference is always created.
+* Both references point to the original objects or values.
+
+int[] original = {10, 20, 30};
+                     +----+
+original[0]  +-----> | 10 | <-----+inMethod[0]
+                     +----+
+                     | 20 |
+                     +----+
+                     | 20 |
+                     +----+
+------------------
+Scenario - 4: Passing String Values (String data type is a contrary example)
+
+void changeString(String inMethod){
+  inMethod = "New!";
+  System.out.println("In method: " + inMethod);
+}
+
+String original = "Original!";
+System.out.println("Original before: " + original);
+changeString(original);
+System.out.println("Original after: " + original);
+
+Output:
+Original before: Original!
+In method: New!
+Original after: Original!
+
+Note:
+- Strings are immutable!
+- A copy of the entire String is created when passed to a method.
+-------

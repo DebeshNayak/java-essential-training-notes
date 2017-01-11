@@ -1,0 +1,17 @@
+Challenge: Creating a more complex calculator application.
+
+- This calculator:
+  - can take two values
+  - can do addition, subtraction, multiplication and division of those two values
+  - can handle error
+    - if the entered values are not number
+    - if the entered operator is not a mathematical operator
+
+Program should be like follow:
+
+Enter a numeric value: 3
+Enter a numeric value: 4
+Choose an operation (+ - * /): +
+The answer is 5.0
+Number formatting exception for input string: "x" !
+Unrecognized operation!

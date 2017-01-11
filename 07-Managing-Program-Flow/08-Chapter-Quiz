@@ -1,0 +1,19 @@
+1. Which of the following is true about if else block?
+Ans:
+- Conditions in if else block must be wrapped in parenthesis
+- the else clause goes at the end of the whole if else block
+- each if clause can have any number of else
+
+2. _______ statement examines a single value and then compares it to multiple possibilities,
+  and you can control the flow of execution based on when the two values match.
+Ans: switch
+
+3. Which of the following is a way of looping through collections of data in Java?
+Ans:
+- for loop
+- while loop
+- do while loop
+
+4. The keyword void means that the method is not going to return anything in method declaration.
+Ans: true
+---------------
