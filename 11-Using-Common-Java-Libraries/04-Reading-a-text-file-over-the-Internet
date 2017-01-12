@@ -1,0 +1,12 @@
+Reading a text file over the Internet:
+-------------------------------------
+- Many Java applications have to communicate over the Internet making requests for
+  content and processing the content after downloading it.
+
+- After downloading the XML we might parse the XML content using Document Object Model, JDOM,
+  or one of the many other approaches that are available for parsing XML using Java.
+
+- We have seen how to communicate over the Web making requests for content and then
+  downloading and getting content ready for processing.
+
+Example: 50-Internet project

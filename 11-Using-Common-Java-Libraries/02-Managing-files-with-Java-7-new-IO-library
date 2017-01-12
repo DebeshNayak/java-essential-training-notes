@@ -1,0 +1,8 @@
+Managing files with Java 7 new I/O library:
+-------------------------------------------
+ - In Java 7, a new IO library was introduced that greatly simplified a lot of common operations.
+ - You can only use this library in Java 7 and later.
+ - Unfortunately, at least at this point, it has not been implemented for Android.
+ - So Android developers will still need to use those older classes.
+ -------------------
+Example: 48-NewIO project

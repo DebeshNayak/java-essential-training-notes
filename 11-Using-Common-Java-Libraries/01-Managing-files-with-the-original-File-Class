@@ -1,0 +1,16 @@
+Managing files with the original File class:
+--------------------------------------------
+- I'm using a syntax style known as try-with-resources.
+- Whenever you declare objects within the parentheses after the try keyword
+- That means that these objects implement a method named close, or to be more accurate,
+  they implement an interface named AutoCloseable.
+- All of these objects need to be closed before you finish what you're up to.
+- By instantiating the objects in the try-with-resource section, I'll allow the
+  Java runtime to call the close methods for me.
+---------------
+- And if you're working with an older version of Java, you won't be able to use
+  it either.
+- So instead, you would instantiate these objects within the try block and then
+  close them explicitly by calling their close methods before you finish executing your code.
+--------------
+Example: 47-CopyFile project

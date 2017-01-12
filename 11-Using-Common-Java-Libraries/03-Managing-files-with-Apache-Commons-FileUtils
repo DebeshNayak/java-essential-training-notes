@@ -1,0 +1,17 @@
+Managing files with Apache Commons FileUtils:
+- Apache Commons is a project that incorporates utilities for many common tasks.
+- The goal of Apache Commons is to take solutions that developers have found,
+  and let them share them easily with the rest of the community.
+- For file management, there's a special category called Commons IO.
+- https://commons.apache.org
+- For File Management there is a special category:  https://commons.apache.org/proper/commons-io
+------------------
+ - If you're working with the most recent version of Java and you can use the new I/O libraries, I recommend doing that.
+ - But if you're working with older versions, or you're working under Android, and
+  you want to simplify a lot of these tasks, it's worth looking at these tools.
+--------
+- Knowing what's in the Apache Commons libraries can help you enormously.
+- A lot of the common tasks that you might have to accomplish have already been solved by other Java developers,
+- They've shared their solutions through Apache Commons.
+--------------
+Example: 49-ApacheCommons project

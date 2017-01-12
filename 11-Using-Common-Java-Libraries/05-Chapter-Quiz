@@ -1,0 +1,13 @@
+1. The FileReader class is from which of the following Java packages?
+Ans: java.io
+
+2. The _____ method of the Paths class allows you to put together the location
+    and the name of the file without having to worry about slashes as separators.
+Ans: get()
+
+3. Which of the following is a main class that you can use to stream the content
+  of an XML file from the Internet?
+Ans:
+URL
+InputStream
+BufferedInputStream
