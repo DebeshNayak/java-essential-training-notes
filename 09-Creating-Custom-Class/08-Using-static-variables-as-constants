@@ -1,0 +1,11 @@
+Using static variables as constants:
+- A variable, whose value can't be changed.
+- There is a const keyword in Java, but it's not currently implemented.
+- Instead Java developers create constants using the final keyword.
+- Final, when applied to a variable, means that its value can only be set once.
+--------------------
+- Constants can help you solve a number of programming issues:
+  - It helps in elimination of the errors that literal strings are prone to.
+  - It can help in coding more quickly
+
+Example: 42-Constant project

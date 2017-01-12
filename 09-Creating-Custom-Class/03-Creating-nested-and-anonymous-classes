@@ -1,0 +1,6 @@
+Creating nested and anonymous classes:
+- For Android developers especially, it's critical to understand nested classes.
+  They're used a lot in the Android SDK.
+---------------
+Example:
+37-NestedClass project

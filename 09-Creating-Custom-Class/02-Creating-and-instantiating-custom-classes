@@ -1,0 +1,2 @@
+- Breaking Method into it's own Library, so that the code can be called from anywhere.
+Ex: Have a look at the project 36-CreateClass

@@ -1,0 +1,12 @@
+Declaring and using enum types:
+- Enumerations are lists of possible values that you can use for any particular variable.
+- An enumeration in java is called an enum class.
+- An enum class, either can be created:
+  - in using its own separate code file,
+  - a nested enum if its only going to be used in one java class.
+----------------
+- One of the advantages of an enum is that:
+  - If you decide to add another value later on, you only have to do it in one place, in the enum itself.
+  - If you need to change the way a particular identifier translates to a string, again, it occurs in only one place.
+----------
+Example: 42-Enums project

@@ -1,0 +1,5 @@
+Using constructor methods:
+-------------------------
+- When you create an instance of a class, you typically call its constructor method.
+- A constructor method always starts with a public access modifier value.
+- Name of the constructors always matches the name of the class.

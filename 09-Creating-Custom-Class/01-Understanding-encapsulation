@@ -1,0 +1,71 @@
+Understanding encapsulation:
+- Java is a object oriented language
+- Encapsulation is one of the important functionality of OOPs Language
+--------
+About Encapsulation:
+- Packaging complex functionality for ease of programming.
+- Access to individual functions can be restricted
+- Hide complex functionality in methods
+- The true nature of encapsulated data may also be hidden
+  (Ex: Data first stored in XML format and later we though to change the storage format to JSON)
+-----------
+Example of Encapsulation:
+- A Non-Encapsulated Machine
+  - A olive oil compressor showing all of its complexity.
+- A Encapsulated Machine
+  - A olive oil compressor hiding all its details
+------------
+Non-Encapsulated Code:
+* Non-encapsulated code can be complex.
+
+static void main(String[] args){
+  Olive olives = {new Olive(), new Olive(), new Olive()};
+  OliveOid oid = new OliveOil();
+  OivePress press = new OlivePress();
+  for (Olive olive:olives){
+    olive.crush();
+    oil.add(olive);
+  }
+}
+---------------
+Encapsulating Code:
+public class OlivePress {
+  private Olive[] _olives;
+
+  public void OlivePress(Olive[] olives){
+    this._olives = olives;
+  }
+
+  public OliveOil getOil(){
+    ... implementation next slide ..
+  }
+}
+--
+public OliveOil getOil() {
+  if (_olives == null){
+    return null;
+  }
+
+  OliveOil oil = new OliveOil();
+  for(Olive olive: olives){
+    int yield = olive.crush();
+    oil.add(yield);
+  }
+  return oil;
+}
+--
+* Calling the code is now simple.
+
+static void main(String[] args){
+  OlivePress press = new OlivePress ({new Llive(), new Olive(), new Olive()});
+  OliveOid oid = press.getOil(olives);
+}
+
+---------------------------
+* Object-oriented programming can make working in a development team much easier,
+  and maintenance of the application much more successful in the long run.
+----------------------------
+Benefits of Encapsulation:
+* Breaking functionality into small, maintainable units
+* Grouping functions and data together
+* Supporting testing of software at a granular level.

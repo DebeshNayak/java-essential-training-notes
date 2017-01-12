@@ -1,0 +1,7 @@
+1. Packaging complex functionality for ease of programming and hiding complex functionality
+  in methods is called _______.
+Ans: encapsulation.
+
+2. Nested classes are classes that are included within other classes, and those
+  classes are only available to their parent classes.
+Ans: True.

@@ -1,0 +1,7 @@
+Declaring instance and static methods:
+Classes that provides encapsulation have "Instance Methods":
+- setters: modifier
+- getters: accessor
+---------
+- If the class have instance variable then the IDE can generate setter and getter methods as well.
+Example: 40-InstanceMethod project
