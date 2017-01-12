@@ -5,3 +5,18 @@ Ans: encapsulation.
 2. Nested classes are classes that are included within other classes, and those
   classes are only available to their parent classes.
 Ans: True.
+
+3. In order to get to instance variables or fields in a class so you can set and
+  get their values, you need to declare these fields as ________.
+Ans: public
+
+4. If a Java class doesn't have an explicit constructor, the compiler creates a
+  no arguments constructor for you.
+Ans: True
+
+5. What is the keyword that you use to create a constant in Java?
+Ans: Final
+
+6. Enumerations are lists of possible values that you can use for any particular variable.
+  enumeration in java is called enum class.
+  
