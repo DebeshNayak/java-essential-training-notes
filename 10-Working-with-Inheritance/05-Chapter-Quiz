@@ -1,0 +1,9 @@
+1. In Java, classes can implement only one interface but allow for multiple inheritance.
+Ans: False
+
+2. Which keyword do you use to create a subclass of a super class in Java?
+Ans: extends
+
+3. In object-oriented programming, a(n) __________ is a contract. It defines a set
+  of methods with particular signatures, and any class that implements it must implement those methods.
+Ans: interface

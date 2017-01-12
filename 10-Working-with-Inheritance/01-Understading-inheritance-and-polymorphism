@@ -1,0 +1,75 @@
+Understanding inheritance and polymorphism:
+-------------------------------------------
+Inheritance in Java:
+* Relationship between multiple classes
+* Java supports single inheritance.
+* Each class can extend only one direct superclass.
+* Classes can implement multiple interfaces.
+
+About Inheritance:
+* Inheritance relationship can be described as
+  - Parent/child
+  - Base/derived
+  - Superclass/subclass -> Preferred Java vocabulary
+------------
+About Polymorphism
+* Addresses an object as either super- or subtype
+Example: List and ArrayList
+  List - Interface
+  Array - Implements that interface.
+   -  declare an object as a List but then instantiate it as an ArrayList.
+
+* Writes methods that accepts supertype as arguments
+* Passes instances of subtypes
+* Increases code flexibility and reusability
+- This is known as contract-based programming, and it's something you get with the inheritance model of Java.
+-------------------
+An Inheritance Relationship:
+                            +------------+
+                            | Object     |
+                            +-----+------+
+                                  |
+                                  |
+                            +------------+
+                            |  Olive     | +-----------+ Superclass
+                            +------------+
+                                  |
++--------------------+------------+--------+-----------------------+
+|                    |                     |                       |
++--+-------+      +-----+-----+        +------+------+         +------+----+
+|Kalamata  |      |Ligurian   |        |  Gaeta      |         | Lugano    |
++----------+      +-----------+        +-------------+         +-----------+
+----------
+Superclasses:
+* Superclasses don't need special code.
+* If a class isn't final, it can be extended.
+* All fields and methods are inherited unless marked "private".
+* Mark fields as private and add public setter/getter method.
+* Mark method as protected or public
+-----------
+Example of Superclass:
+package olives;
+public class Olive {
+  private double volume;
+  private boolean crushed = flase;
+
+  public double getVolume(){
+    ...
+  }
+
+  public void setVolume(double volume){
+    ...
+  }
+
+  public void cursh(){
+    this.crushed = true
+  }
+}
+---------
+Subclasses Extend Superclasses
+* Use extends keyword in subclass to implement inheritance relationship
+
+package olives;
+public class Katamata extends Olive {
+  ... class implementation ...
+}

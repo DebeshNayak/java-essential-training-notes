@@ -1,0 +1,8 @@
+- When designing an object-oriented, contract-based programming architecture, you
+  can frequently choose between using interfaces and abstract classes.
+- An abstract class is abstract because you add the abstract keyword and then it
+  can contain a mixture of fully implemented methods and abstract methods.
+- An abstract method is just like a method in an interface. It doesn't have an
+  implementation. It just indicates the method signature and then any subclasses
+  of an abstract method must implement that method.
+***Abstract classes cannot be instantiated directly, only their subclasses can be instantiated.

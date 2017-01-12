@@ -1,0 +1,14 @@
+Creating and implementing interfaces:
+-------------------------------------
+- In object-oriented programming, an interface is a contract.
+- It defines a set of methods with particular signatures.
+- Any class that implements that interface must implement those methods.
+
+Example:
+- The list and the map.
+- These are parts of the collections framework.
+--------------
+- Instantiating interfaces of code is very common in the world of Android.
+- Interfaces are used in Android for event handling, call-back methods, and other more advanced Java programming functionality.
+
+Example: 45-Interfaces project
