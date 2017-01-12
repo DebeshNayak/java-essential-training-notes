@@ -6,3 +6,7 @@
   implementation. It just indicates the method signature and then any subclasses
   of an abstract method must implement that method.
 ***Abstract classes cannot be instantiated directly, only their subclasses can be instantiated.
+- Abstract classes are similar to interfaces, but it is the choice of application designer to
+  choose between these two.
+-----------
+Example: 46-Abstract project
