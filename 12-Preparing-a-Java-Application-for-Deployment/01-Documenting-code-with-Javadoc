@@ -1,0 +1,11 @@
+Documenting code with Javadoc:
+-----------------------------
+- The Java Development Kit includes the tool named Javadoc. Javadoc's job is to
+  extract documentation about your Java application, including information directly
+  drawn from the code, but also from comments that you can put into your code.
+
+- For applications that you want to keep around for a long time, that will need
+  to be maintained, then Javadoc Tool is absolutely critical to help you understand
+  later what you are programming today.
+
+Example: 51-Javadocs

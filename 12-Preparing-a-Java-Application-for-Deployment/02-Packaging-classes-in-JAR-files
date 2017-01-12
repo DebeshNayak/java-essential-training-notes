@@ -1,0 +1,7 @@
+Packaging classes in JAR files:
+------------------------------
+- A JAR file is a Java archive. A file in ZIP format that contains one or more Java
+  classes, pre-compiled, so that you can run the JAR file as a complete application.
+- This is all done using a tool that's included with the Java Development Kit, called JAR.
+- To run a simple jar file enter the following command:
+java -jar <jar file name with jar extension>
